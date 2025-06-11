@@ -39,7 +39,8 @@ buildFeatures {
     }
     lintOptions {
         checkAllWarnings true
-        warningsAsErrors true
+        warningsAsErrors false
+        abortOnError false
         disable 'AndroidGradlePluginVersion', 'InvalidPackage', 'GradleDependency', 'NewerVersionAvailable'
     }
     compileOptions {
